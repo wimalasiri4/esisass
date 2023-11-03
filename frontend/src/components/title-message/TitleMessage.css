@@ -1,0 +1,33 @@
+/* TitleMessage.css */
+
+.my-title-message {
+  position: absolute;
+  width: 100%;
+  top: 22rem;
+  z-index: 1;
+  margin-top: -125px;
+  text-align: center;
+}
+
+.my-title-message strong {
+  font-size: 1.22em;
+}
+
+.my-title-message div {
+  color: #fff;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight: 800;
+  letter-spacing: 7px;
+}
+
+.my-title-message .main {
+  font-size: 45px;
+}
+
+.my-title-message .sub {
+  font-size: 27px;
+  letter-spacing: 2px;
+}
+
+
+@media (max-width: 764px) {}

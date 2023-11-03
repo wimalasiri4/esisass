@@ -1,0 +1,112 @@
+.text-image-grid {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 77px;
+}
+
+.text-image-grid-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #11294b;
+    margin: 0 36px;
+    text-align: left;
+}
+
+.text-image-grid-line {
+    width: 59px;
+    height: 3px;
+    margin: 6px 36px 46px 36px;
+    background: #ee4d67;
+}
+
+.text-image-grid-description {
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    color: #0e0e0e;
+    margin: 0 36px;
+    letter-spacing: 1.7;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-image-grid-image {
+    height: 428px;
+    width: 455px;
+    border-radius: 5%;
+}
+
+.reverse-grid {
+    flex-direction: row-reverse;
+}
+
+@media (min-width: 688px) and (max-width: 992px) {
+    .text-image-grid {
+        margin: 79px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .text-image-grid-title {
+        font-size: 24px;
+        line-height: 44px;
+        margin: 0 36px;
+    }
+
+    .text-image-grid-line {
+        margin: 6px 36px 46px 36px;
+    }
+
+    .text-image-grid-description {
+        font-size: 18px;
+    }
+
+    .text-image-grid-image {
+        height: 413px;
+        width: 321px;
+    }
+}
+
+@media (max-width: 688px) {
+    .reverse-grid {
+        flex-direction: row;
+    }
+
+    .text-image-grid {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .text-image-grid-title {
+        font-size: 18px;
+        line-height: 21px;
+        margin: 0 0px;
+    }
+
+    .text-image-grid-line {
+        margin: 1px 36px 15px 0px;
+    }
+
+    .text-image-grid-description {
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin: 0 0px;
+        text-align: justify;
+    }
+
+    .text-image-grid-image {
+        height: 413px;
+        width: 319px;
+    }
+}

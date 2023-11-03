@@ -1,0 +1,56 @@
+.dropzone {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.dropzone .preview {
+    height: 300px;
+}
+
+.dropzone .preview-overlay {
+    position: absolute;
+    right: 0;
+}
+
+.dropzone .preview-overlay-edit,
+.dropzone .preview-overlay-delete {
+    width: 15px;
+    max-height: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dropzone .upload-image {
+    width: 100%;
+}
+
+.custom-button {
+    width: 120px;
+}
+
+.preview {
+    border: 2px #000 ridge;
+    border-radius: 10px;
+}
+
+.spinner{
+    margin-right: 4px;
+}
+
+@media (max-width: 764px) {
+
+    .upload-file-dropzone {
+        width: 270px;
+    }
+
+    .dropzone .preview {
+        height: unset;
+        max-height: 250px;
+    }
+
+    .custom-button {
+        width: 100px;
+    }
+}

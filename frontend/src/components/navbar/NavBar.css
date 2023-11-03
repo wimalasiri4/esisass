@@ -1,0 +1,29 @@
+.nav-bar-custom {
+  width: 100%;
+  background-color: #000;
+  z-index: 100;
+  position: absolute;
+}
+
+.nav-bar-custom .navbar-brand,
+.nav-bar-custom .navbar-text a {
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.navbar-text a,
+.navbar-text a:focus,
+.navbar-text a:hover {
+  color: #fff !important;
+}
+
+.web-name {
+  margin-left: 10px;
+}

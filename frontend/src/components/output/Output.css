@@ -1,0 +1,11 @@
+.preview {
+    height: 200px;
+}
+
+.modal-content {
+    border-radius: 21px !important;
+}
+
+.spinner{
+    margin-right: 4px;
+}
